@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Courgette&display=swap');
+
+:root {
+  --background : #2c3e50;
+}
+
+.bgr--modal {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/modal.jpeg");
+  height: 100%;
+}
+
+body,
+html {
+  background-color: var(--background);
+  height: 100%;
+  margin: 0;
+}
+
+.hero {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/hero.jpeg");
+  height: 100%;
+}
+
+
+/* Font */
+.font--wd {
+  font-family: 'Carattere', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  text-shadow: 2px 2px #000000;
+}
+
+.font--ai {
+  font-family: 'Courgette', cursive;
+  font-size: 3rem;
+  text-shadow: 2px 2px #000000;
+}
+
+.font--n {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.font--1 {
+ font-family: 'Carattere', cursive;
+}
+
+.font--2 {
+  font-family: 'Courgette', cursive;
+}
+
+.modal--content {
+  background-color: white;
+  color: black;
+  position: absolute;
+  width: 90%;
+  bottom: 12%;
+  border-radius: 1rem;
+  padding: 10px 3px 10px 3px;
+}
+
+.modal--button {
+position: absolute;
+width: 90%;
+bottom: 3%;
+}
+
+.hero--content {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Courgette', cursive;
+  color: white;
+  text-shadow: 2px 0px 1px #000000;
+  position: relative;
+  bottom: -52%;
+}
